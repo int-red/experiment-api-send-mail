@@ -1,0 +1,20 @@
+﻿[
+  {
+    "namespace": "sendmail",
+    "functions": [
+      {
+        "name": "SendComposedEmail",
+        "type": "function",
+        "description": "send email from compose window.",
+        "async": false,
+        "parameters": [
+          {
+            "name": "windowId",
+            "type": "integer",
+            "description": "Window Id of compose window."
+          }
+        ]
+      }
+    ]
+  }
+]
