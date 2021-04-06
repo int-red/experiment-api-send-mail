@@ -1,6 +1,7 @@
 ﻿{
   "manifest_version": 2,
   "name": "Extension containing an experimental API",
+  "version": "1.0",
   "experiment_apis": {
     "sendmail": {
       "schema": "api/sendmail/schema.json",
@@ -9,12 +10,16 @@
         "paths": [ [ "sendmail" ] ],
         "script": "api/sendmail/implementation.js"
       }
-    },
+    }
   },
   "compose_action": {
     "default_popup": "send-button.html",
     "default_title": "Alternate send mail button",
     "default_icon": "images/mail_button.png"
   },
-
+      "permissions": [
+      "messagesRead",
+      "nativeMessaging",
+	  "compose"
+    ]
 }
