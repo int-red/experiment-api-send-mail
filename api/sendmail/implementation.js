@@ -1,4 +1,4 @@
-﻿
+
 var { ExtensionCommon } = ChromeUtils.import("resource://gre/modules/ExtensionCommon.jsm");
 
 
