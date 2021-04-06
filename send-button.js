@@ -23,7 +23,7 @@ messenger.tabs.query({
                         if (window.type == "messageCompose") {
 
 							//send the composed email
-                            messenger.dbsend.SendComposedEmail(window.id);
+                            messenger.sendmail.SendComposedEmail(window.id);
 
                         } else {
                             console.error("messenger.windows.getCurrent() wrong windowType:", window);
