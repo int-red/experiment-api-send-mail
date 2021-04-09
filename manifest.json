@@ -17,9 +17,7 @@
     "default_title": "Alternate send mail button",
     "default_icon": "images/mail_button.png"
   },
-      "permissions": [
-      "messagesRead",
-      "nativeMessaging",
-	  "compose"
-    ]
+  "permissions": [
+    "compose"
+  ]
 }
